@@ -12,11 +12,11 @@ function showinfo(){
 }
 function turnOn(){
 	var build_i=get("bulb");
-	build_i.src="bulb_on.gif";
+	build_i.src="pic_bulbon.gif";
 }
 function turnOff(){
 	var build_i=get("bulb");
-	build_i.src="bulb_off.gif";
+	build_i.src="pic_bulboff.gif";
 }
 function get(id){
 	return document.getElementById(id);
