@@ -165,3 +165,5 @@ function insertUser($name,$username,$email,$password)
 		}
 		return false;
 	}
+
+?>

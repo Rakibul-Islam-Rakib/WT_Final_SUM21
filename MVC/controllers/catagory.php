@@ -39,3 +39,4 @@ function getCategory($id){
 			$rs=get($query);
 			return $rs[0];
 		}
+?>
